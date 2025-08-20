@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CyberNómade, 28 lunas sin códigos</title>
     <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="assets/scripts/index.js" defer></script>
 
 </head>
 <body>
+    <!-- Botón para salir del modo pantalla completa -->
+    <button id="exit-fullscreen-btn" class="exit-fullscreen-btn">SALIR</button>
+    
     <!-- Mensaje de orientación para móviles -->
     <div id="orientation-message" class="orientation-message">
         <div class="orientation-content">
             <div class="rotate-icon">📱</div>
             <p>Gira tu dispositivo para una mejor experiencia</p>
+            <p><button id="fullscreen-btn">Pantalla completa</button></p>
         </div>
     </div>
 
@@ -76,6 +81,5 @@
             <p>ver 1.0.1</p>
         </footer>
     </div>
-</body>
 </body>
 </html> 
